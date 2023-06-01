@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+header{
+    height: calc(100vh - 600px);
+    background: no-repeat center/cover url(img/1.jpg);
+    clear: both;
+}
+section{
+    display: flex;
+    flex-direction: row;
+}
+body{
+  margin:0;
+  padding:0;
+  color: #242424;
+  font-family: sans-serif;
+}
+.navigation{
+    max-width: 20%;
+    margin-left: 115px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #8b0000;
+    flex-direction: column;
+    height: 112vh;
+
+}
+.navigation ul{
+    padding: 12px;
+}
+.navigation ul li a{
+    color: #888;
+    font-weight: 1000;
+    padding: 20px;
+    display: block;
+    transition: all 0.5s ease-in-out;
+}
+.navigation ul li a:hover{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.navigation .check{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+h2{
+    font-family: Arial Narrow;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 50px;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+aside{
+    max-width: 20%; 
+    padding-top: 1em;
+}
+aside .imagem{
+    width: 200px;
+    height: 54vh;
+    margin-left: 2px;
+    border-radius: 3px;
+}
+article{
+    max-width: 60%;
+}
+article p{
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: 50px;
+    padding-top: 15px;
+    font-size: 1.1rem;
+    opacity: 0.6;
+    text-transform: uppercase;
+}
+article .imagem2{
+    width: 800px;
+    height: 78vh;
+    align-items: center;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+footer{
+    height: 17vh;
+    background: #8b0000;
+    clear: both;
+}
+footer p{
+    text-align: center;
+    font-weight: bolder;
+    font-family: Arial Narrow;
+    justify-content: space-between;
+    color: #fff;
+    text-shadow: 1px 1px brown;
+}
+span{
+    display: flex;
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px brown;
+    font-weight: bolder;
+    margin-left: 80px;
+}
+.navigation2{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    justify-content: space-between;
+    font-size: 1.2em;
+    text-shadow: 1px 1px brown;
+    height: 5VH;
+}
+.navigation2 ul{
+    display: flex;
+    margin-left: 500px;
+}
+.navigation2 ul li a{
+    color: #fff;
+    font-weight: 1000;
+}
